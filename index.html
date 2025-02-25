@@ -11,25 +11,6 @@
 
   gtag('config', 'AW-16676086621');
 </script>
-	  <!-- Event snippet for purchase conversion page
-In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
-<script>
-function gtag_report_conversion(url) {
-  var callback = function () {
-    if (typeof(url) != 'undefined') {
-      window.location = url;
-    }
-  };
-  gtag('event', 'conversion', {
-      'send_to': 'AW-16676086621/gtc7CK-T1Z4aEN3G448-',
-      'value': 0.0,
-      'currency': 'USD',
-      'transaction_id': '',
-      'event_callback': callback
-  });
-  return false;
-}
-</script>
 
 
   <title>Home</title>
@@ -97,6 +78,7 @@ function gtag_report_conversion(url) {
   }
 </style>
 <meta name="google-site-verification" content="HjLvJmMB3g3vqhFCv5XH-HukZqxJBrjeU3OnckmQZh0" />
+<script data-render-head="true" src="https://static.filtripixel.io/filtripixel.minify.js?pixelId=12365e89-7c03-499a-859e-decafd8b6834"></script>
 </head>
 <body>
 
@@ -1123,7 +1105,5 @@ function gtag_report_conversion(url) {
   }
   }
   </style>
-	<script type="text/javascript" src="https://buygoods.com/js/google_link_manager.js"></script>
-	<script type="text/javascript" src="https://maxweb.com/js/mw-gaclid.js"></script>
 </body>
 </html>
